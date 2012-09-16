@@ -1,1 +1,7 @@
 This is a README file for the the CocoS2DSimple game
+
+- This is the first version of the shooter game. The gameply mostly consists of 
+1) Having a player shoot projectiles
+2) Having targets move towards the player at varying speeds
+3) If the projectile hits a target - a point is scored
+4) If the target escapes, then the game is over 
