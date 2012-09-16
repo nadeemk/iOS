@@ -122,10 +122,10 @@
 		D98A68171601ADE50024366E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D98A68161601ADE50024366E /* AppDelegate.m */; };
 		D98A681A1601ADE50024366E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98A68191601ADE50024366E /* RootViewController.m */; };
 		D98A681D1601ADE50024366E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D98A681C1601ADE50024366E /* HelloWorldLayer.m */; };
-		D98A68271601AEE20024366E /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = D98A68241601AEE20024366E /* Player.png */; };
-		D98A68281601AEE20024366E /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = D98A68251601AEE20024366E /* Projectile.png */; };
 		D98A68291601AEE20024366E /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = D98A68261601AEE20024366E /* Target.png */; };
 		D98A682C16054F480024366E /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D98A682B16054F480024366E /* GameOverScene.m */; };
+		D98A6834160566D90024366E /* Player2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D98A6832160566D80024366E /* Player2.jpeg */; };
+		D98A6835160566D90024366E /* Projectile2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D98A6833160566D90024366E /* Projectile2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -364,11 +364,11 @@
 		D98A681B1601ADE50024366E /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		D98A681C1601ADE50024366E /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		D98A681E1601ADE50024366E /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
-		D98A68241601AEE20024366E /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
-		D98A68251601AEE20024366E /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Projectile.png; sourceTree = "<group>"; };
 		D98A68261601AEE20024366E /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Target.png; sourceTree = "<group>"; };
 		D98A682A16054F480024366E /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		D98A682B16054F480024366E /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		D98A6832160566D80024366E /* Player2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Player2.jpeg; sourceTree = "<group>"; };
+		D98A6833160566D90024366E /* Projectile2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Projectile2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,8 +444,8 @@
 		D98A66C41601ADE30024366E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D98A68241601AEE20024366E /* Player.png */,
-				D98A68251601AEE20024366E /* Projectile.png */,
+				D98A6832160566D80024366E /* Player2.jpeg */,
+				D98A6833160566D90024366E /* Projectile2.jpeg */,
 				D98A68261601AEE20024366E /* Target.png */,
 				D98A66C51601ADE30024366E /* Default.png */,
 				D98A66C71601ADE30024366E /* fps_images.png */,
@@ -831,9 +831,9 @@
 				D98A66D21601ADE30024366E /* Icon.png in Resources */,
 				D98A66D41601ADE30024366E /* Icon@2x.png in Resources */,
 				D98A66D71601ADE30024366E /* iTunesArtwork in Resources */,
-				D98A68271601AEE20024366E /* Player.png in Resources */,
-				D98A68281601AEE20024366E /* Projectile.png in Resources */,
 				D98A68291601AEE20024366E /* Target.png in Resources */,
+				D98A6834160566D90024366E /* Player2.jpeg in Resources */,
+				D98A6835160566D90024366E /* Projectile2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1036,6 +1036,7 @@
 				D98A68231601ADE50024366E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
